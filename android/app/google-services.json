@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1006240780546",
+    "project_id": "instavid-e4f00",
+    "storage_bucket": "instavid-e4f00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006240780546:android:ad43125ddf6d55f80eb21b",
+        "android_client_info": {
+          "package_name": "com.example.todo.todo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006240780546-oam220pne3tjpq0ja9q6ji7fv43prab0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGlQ_g3zI94EWp20o6G_c6_-hxCzvx8Sk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006240780546-oam220pne3tjpq0ja9q6ji7fv43prab0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
