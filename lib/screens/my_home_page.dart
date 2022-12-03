@@ -137,6 +137,16 @@ class _MyHomePageState extends State<MyHomePage> {
                   if (snapshot.hasData &&
                       snapshot.connectionState == ConnectionState.done) {
                     List<Map<String, dynamic>> data = snapshot.data!;
+                    if(data.isEmpty){
+                      return const Center(
+                        child: Text(
+                          "No Tasks Added Yet!",
+                          style: TextStyle(
+                            fontSize: 20.0,
+                          ),
+                        ),
+                      );
+                    }
                     return ListView.builder(
                       shrinkWrap: true,
                       physics: const BouncingScrollPhysics(),
